@@ -90,18 +90,31 @@ int main() {
     }
         cout<<" Sum of all number's " << sum;
 
-    */
+    
 
     int n = 10, sum=0;
-    cout<<" Enter a Even number " <<endl;
+    // cout<<" Enter a Even number " <<endl;
     // cin>>n;
     for(int i=2; i<=10;i+=2){
+        cout<<"value of i: "<<i<<endl;
         sum+=i;
+        cout<< "first line: "<<sum<<endl;
     }
     cout<<"Sum of even number"<<sum <<endl;
-;
+*/
 
+    int n, i=1;
+    cin>>n;
 
+    while(i<=n){
+        int j=1;
+        while(j<=n){
+            cout<<"*";
+            j=j+1;
+        }
+        cout<<endl;
+        i=i+1;
+    }
 
 
 }
