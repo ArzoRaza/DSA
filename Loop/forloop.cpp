@@ -8,4 +8,7 @@ int main()
     for(int i = 1; i <= num; i++){
         cout<< i << endl;
     }
+    char *a = "asdkl";
+    cout<< a << endl;
+    
 }
