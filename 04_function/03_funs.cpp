@@ -11,14 +11,26 @@ bool isEven(int a){
 }
 
 
+// int main () {
+//     int number;
+//     cin >> number;
+    
+//     if (isEven(number)){
+//         cout<< "number is Even " <<endl;
+//     }
+//     else{
+//         cout<< "Number is Odd" <<endl;
+//     }
+// }
+
 int main () {
     int number;
-    cin >> number;
-    
+    cin>>number;
+
     if (isEven(number)){
-        cout<< "number is Even " <<endl;
+        cout<<"number is Even " <<endl;
     }
     else{
-        cout<< "Number is Odd" <<endl;
+        cout<<"number is odd" <<endl;
     }
 }
