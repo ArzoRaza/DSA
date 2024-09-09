@@ -1,3 +1,5 @@
+package oopsTopic;
+
 // Parent class (Superclass)
 class Vehicle {
     String brand;
