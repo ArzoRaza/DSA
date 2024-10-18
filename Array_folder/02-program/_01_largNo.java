@@ -4,6 +4,7 @@ public class _01_largNo{
         int largNum = numbers[0];
         int count = 0;
         for (int i = 0; i < numbers.length; i++) {
+            count++;
             if(numbers[i] > largNum){
                 largNum = numbers[i];
             }
